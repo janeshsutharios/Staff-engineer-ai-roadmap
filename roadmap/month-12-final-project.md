@@ -6,7 +6,28 @@
 
 Consolidate the year into one coherent product and engineering story.
 
-## Learn
+## Starting point
+
+Complete the core deliverables; revisit failed readiness checks before adding scope.
+
+## Weekly sequence
+
+| Week | Work in this order |
+|---|---|
+| 1 | Choose one concrete user problem and combine only the relevant parts of your existing projects into a flagship release. |
+| 2 | Run a small permission-based pilot with real users or reviewers. Record task success, friction and failures; label simulated results clearly. |
+| 3 | Fix the highest-impact issues. Publish setup, architecture, evaluations, operational procedures and a short demo. |
+| 4 | Write a case study with measured outcomes and limitations. Practice explaining decisions and debugging; prepare applications matched to demonstrated skills. |
+
+## Ready to move on when
+
+Independently build, evaluate, deploy and diagnose an AI workflow, and explain its user value and limitations. If this is not yet comfortable, extend this month before continuing.
+
+## Optional / defer
+
+Expanding into unrelated products or claiming Staff-level scope without leadership evidence.
+
+## Topic reference
 
 - Architecture, technical leadership and product prioritization.
 - Reliability, onboarding and operational ownership.

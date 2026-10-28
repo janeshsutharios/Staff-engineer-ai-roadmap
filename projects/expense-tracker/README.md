@@ -8,6 +8,10 @@
 
 SwiftUI → FastAPI → PostgreSQL, extended with authentication, Redis and Docker.
 
+## Build sequence
+
+Start with in-memory responses in month 1, add SQL persistence in month 2, then authentication and containers in month 3. Redis is optional.
+
 ## Implementation checklist
 
 - [ ] Define users, requirements and acceptance criteria.

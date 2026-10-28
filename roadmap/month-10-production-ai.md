@@ -6,7 +6,28 @@
 
 Make AI quality and failure behavior measurable.
 
-## Learn
+## Starting point
+
+Complete months 4–9 with accumulated evaluation examples and an observable deployment.
+
+## Weekly sequence
+
+| Week | Work in this order |
+|---|---|
+| 1 | Expand task, retrieval and tool-call datasets. Separate development examples from held-out checks; set justified release thresholds. |
+| 2 | Compare human ratings with an LLM judge and inspect disagreements. Test prompt injection, unauthorized access and unsafe tool arguments. |
+| 3 | Compare prompting, RAG and fine-tuning for a specific failure mode. Learn dataset quality and overfitting; perform fine-tuning only as an optional small experiment. |
+| 4 | Learn inference caching, batching and quantization trade-offs. Compare quality, latency and cost; test provider outages and fallbacks, then publish the evaluation report. |
+
+## Ready to move on when
+
+Catch a regression before release, explain unresolved failures, and justify model or retrieval choices with measurements. If this is not yet comfortable, extend this month before continuing.
+
+## Optional / defer
+
+Fine-tuning, GPU hosting and serving a small open model. These are extensions, not prerequisites for AI application engineering.
+
+## Topic reference
 
 - Evaluations, hallucination handling and guardrails.
 - Prompt injection, data privacy and tool authorization.

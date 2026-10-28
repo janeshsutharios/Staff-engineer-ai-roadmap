@@ -8,6 +8,10 @@
 
 Document ingestion → chunking → embeddings → retrieval → answers with source references.
 
+## Build sequence
+
+Start with a tiny document collection and fixed evaluation questions in month 5. Add update/delete handling before background ingestion in month 7; deploy in month 8.
+
 ## Implementation checklist
 
 - [ ] Define users, requirements and acceptance criteria.

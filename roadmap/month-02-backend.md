@@ -6,7 +6,28 @@
 
 Build a complete mobile-to-backend feature.
 
-## Learn
+## Starting point
+
+Complete month 1: Python basics and a working in-memory API.
+
+## Weekly sequence
+
+| Week | Work in this order |
+|---|---|
+| 1 | Learn relational database basics and SQL: tables, primary/foreign keys, SELECT, INSERT, UPDATE and DELETE. |
+| 2 | Learn FastAPI request validation and response models; connect the expense API to PostgreSQL. |
+| 3 | Add schema migrations, relationships, joins and transactions. Learn what an index does with a small query example. |
+| 4 | Connect the SwiftUI expense flow, add reports and test persistence. Study authentication concepts; implement secure login in month 3. |
+
+## Ready to move on when
+
+Create and retrieve persistent expenses from iOS and explain your database schema. If this is not yet comfortable, extend this month before continuing.
+
+## Optional / defer
+
+Advanced query tuning, elaborate middleware and complex async database patterns.
+
+## Topic reference
 
 - FastAPI routing, request/response models, validation, middleware and async APIs.
 - PostgreSQL tables, relationships, joins, indexes and transactions.

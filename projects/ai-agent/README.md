@@ -8,6 +8,10 @@
 
 Invoice retrieval → reminder drafting → approval → test delivery, followed by business workflows and flagship integration.
 
+## Build sequence
+
+Build a deterministic invoice workflow before a single agent in month 6. Use sample data and approved test delivery. Add integrations in month 7 and deployment in month 8; multiple agents are optional.
+
 ## Implementation checklist
 
 - [ ] Define users, requirements and acceptance criteria.

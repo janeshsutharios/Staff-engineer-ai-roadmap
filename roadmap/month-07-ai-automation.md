@@ -6,7 +6,28 @@
 
 Connect the agent to a repeatable business workflow.
 
-## Learn
+## Starting point
+
+Complete month 6: a safe single-agent workflow. Retain month 5 document-ingestion work.
+
+## Weekly sequence
+
+| Week | Work in this order |
+|---|---|
+| 1 | Learn webhooks, background jobs and queues. Move a slow ingestion task out of the request path. |
+| 2 | Implement retry limits, duplicate detection and job status. Test document updates and failed ingestion. |
+| 3 | Integrate one business service using test data. Build a simple workflow directly before optionally recreating it in n8n. |
+| 4 | Demonstrate enquiry-to-draft-response processing and human handover. Record workflow and retrieval regressions in automated checks. |
+
+## Ready to move on when
+
+Show that slow jobs and repeated webhooks are handled predictably and failures are visible. If this is not yet comfortable, extend this month before continuing.
+
+## Optional / defer
+
+Many simultaneous integrations, WhatsApp onboarding and complex n8n deployments.
+
+## Topic reference
 
 - n8n workflow fundamentals and webhooks.
 - CRM, email and messaging API integrations.
