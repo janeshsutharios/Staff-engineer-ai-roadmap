@@ -39,6 +39,10 @@ The months are a suggested sequence, not fixed calendar deadlines. Income object
 | ☐ | [11](roadmap/month-11-on-device-ai.md) | On-device AI & iOS | Local/cloud iOS AI prototype |
 | ☐ | [12](roadmap/month-12-final-project.md) | Flagship Product & Portfolio | AI Business Assistant and portfolio |
 
+## Learning journal
+
+Start with [Day 1 — Python basics](ai-learning/month-01-python/day-01.md). Keep dated notes, practice code and completion evidence in [ai-learning/](ai-learning/README.md), and track actual progress in the [learning log](ai-learning/progress.md).
+
 ## Working rhythm
 
 1. Open the current month and choose a small weekly deliverable.
