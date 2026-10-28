@@ -2,7 +2,7 @@
 
 | Date | Session | Status | Evidence |
 |---|---|---|---|
-| 2026-10-28 | Day 1: Python values, variables, output and arithmetic | Prepared; practice pending | Lesson and starter created; learner completion not yet confirmed |
+| 2026-10-28 | Day 1: Python basics, strings, operators, conditions and loops | Practice submitted; session finished | [Practice code](month-01-python/practice/day_01_basics.py) and [session notes](month-01-python/notes/2026-10-28.md) |
 
 ## Month 1 milestones
 
