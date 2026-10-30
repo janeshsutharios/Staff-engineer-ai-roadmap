@@ -1,5 +1,7 @@
 """Day 1 practice: Python basics, strings, operators, conditions and loops."""
 
+from math import sqrt  # Importing the sqrt function from the math module
+
 print('Hello World!', 'How are you?')
 print('I am fine, thank you!' + ' How about you?')
 # name = input('What is your name? ')
@@ -98,3 +100,76 @@ for number in range(1, 10):
     print('Value of number is: ', number)
 else:
     print('This is else block of for loop, it will execute only if the loop is not broken.')
+
+ # List example
+fruits = ['apple', 'banana', 'cherry', 'date']
+print('List of fruits: ', fruits)
+print('First fruit is: ', fruits[0])
+print('last index fruit is: ', fruits[-1])
+print('second last index fruit is: ', fruits[-2])   
+#fruits.append('elderberry')  # Add an item to the end of the list
+#slicing a list
+# The slicing syntax is [start:stop:step]:
+print('Sliced list of fruits from index 1 to 3: ', fruits[1:4])  # Slicing from index 1 to 3 (4 is excluded)
+print('Sliced list of fruits from index 2 to end: ', fruits[2:])  # Slicing from index 2 to end
+print('Sliced list of fruits from index 2 to end: ', fruits[2:5])  # Slicing from index 2 to end
+# Leaving start and stop empty means the slice spans the whole list.
+print('Reversed list: ', fruits[::-1])
+# 2. Print each element one by one in reverse
+for fruit in fruits[::-1]: {
+    print(fruit)
+}
+
+studentNames = ['Alice', 'Bob', 'Charlie', 'David']  
+print('current list of studentNames: ', studentNames)
+print('Reversed studentNames: ', studentNames[3:1:-1])
+"""
+Quick Cheat-Sheet
+fruits[start : stop]         # Forward from start to stop - 1
+fruits[start :]              # From start to the end
+fruits[: stop]               # From start of list to stop - 1
+fruits[start : stop : step]  # With a custom step
+fruits[::-1]                 # Entire list reversed
+"""
+print(studentNames[1:3])  # Forward from index 1 to 2
+print(studentNames[1:])   # From index 1 to the end
+print(studentNames[:3])   # From start to index 2   
+print(studentNames[1:3:1])  # From index 1 to 2 with a step of 1
+print(studentNames[::-1])  # Entire list reversed
+
+#Tuple example
+studentMarks = (85, 90, 78, 92)  # Immutable tuple
+print('Tuple of studentMarks: ', studentMarks)
+print('First student mark is: ', studentMarks[0])
+print('Last student mark is: ', studentMarks[-1])
+
+# Set example
+studentSubjects = {'Maths', 'Science', 'English', 'History', 'Maths'}  # Unordered collection of unique elements
+print('Set of studentSubjects: ', studentSubjects)
+# studentSubjects.add('Geography')  # Add an element to the set
+# print('Updated set of studentSubjects: ', studentSubjects)
+print('Length of studentSubjects set is: ', len(studentSubjects))
+# Dictionary example
+studentInfo = {'name': 'Alice', 'age': 20, 'grade': 'A'}  # Key-value pairs
+print('Dictionary of studentInfo: ', studentInfo)
+print('Student name is: ', studentInfo['name'])
+print('Student age is: ', studentInfo['age'])
+print('Student grade is: ', studentInfo['grade'])
+for key, value in studentInfo.items():
+    print(f'{key}: {value}')# f is used for string formatting in Python. It allows you to embed expressions inside string literals, using curly braces {}. The expressions are evaluated at runtime and then formatted using the format() protocol.
+    print(key, value)
+
+# Functions example
+def greet(name):
+    """Function to greet a person by name."""
+    return f'Hello {name}, nice to meet you!'
+
+print(greet('Alice'))
+
+# Sum function example
+def sum_numbers(a, b):
+    """Function to return the sum of two numbers."""
+    return a + b    
+sum_result = sum_numbers(5, 10)
+print('Sum of 5 and 10 is: ', sum_result)
+print('square root of 16 is: ', sqrt(16))  # Using the sqrt function from the math module
